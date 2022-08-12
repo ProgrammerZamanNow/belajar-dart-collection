@@ -20,6 +20,7 @@ class Category implements Comparable<Category>{
 void main(){
 
   final treeSet = SplayTreeSet<Category>();
+  // final treeSet = SplayTreeSet<Category>((a, b) => b.compareTo(a));
   treeSet.add(Category('3', 'Category 3'));
   treeSet.add(Category('1', 'Category 1'));
   treeSet.add(Category('2', 'Category 2'));
